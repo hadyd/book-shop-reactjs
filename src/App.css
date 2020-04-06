@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+body {
+  font-family: 'Quicksand' !important;
+}
+
+nav a:hover, .footer-copyright a:hover {
+  font-weight: bold;
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 100px;
+  max-width: 600px;
+  height: auto;
+  border: 1px solid #fed330;
+  background-color: #fed330;
+}
+
+.navbar {
+  background-color: #6D214F;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #6D214F;
+  text-align: center;
+  font-weight: bold;
+}
+
+.featurette .search {
+  padding: 3%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+@media (min-width: 480px) {
+  .featurette .search.has-button .form-group {
+    position: relative;
+    padding-right: 99px;
+    /*space for button*/
+  }
+}
+
+.myButton {
+  background-color: #6D214F;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 11px 31px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  background-color: #5cbf2a;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+/*# sourceMappingURL=App.css.map */
