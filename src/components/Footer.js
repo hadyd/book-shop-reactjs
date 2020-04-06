@@ -5,7 +5,7 @@ export function Footer() {
 
       <footer class="footer">
         <div className="text-footer">
-          <span>&copy; 2020 Anur Al Hadyd | Book Shop</span>
+          <span>&copy; 2020 Anur Al Hadyd | Simple Online Bookstore</span>
         </div>
       </footer>
    
